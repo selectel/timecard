@@ -1,0 +1,12 @@
+.. -*- mode: rst -*-
+
+Timecard is a framework for rendering tables wih metric values or any other
+data to console.
+
+The output looks like that of dstat (http://dag.wiee.rs/home-made/dstat/).
+It is also possible to save data to cvs file.
+
+Example::
+
+    $ python -m timecard.sample
+
