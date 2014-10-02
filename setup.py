@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name="Timecard",
-    version="1.0",
+    version="1.0.1",
     packages=["timecard"],
     url="http://github.com/selectel/timecard",
     license="MIT",
