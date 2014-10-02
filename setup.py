@@ -9,7 +9,7 @@ setup(
     author="Konstantin Enchant",
     author_email="sirkonst@gmail.com",
     description="Framework for rendering tables wih metric values",
-    long_description=__import__("timecard.timecard").__doc__,
+    long_description=__import__("timecard.timecard").__about__,
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",

@@ -17,9 +17,10 @@ import csv
 from collections import OrderedDict
 from contextlib import contextmanager
 # ------------------------------------------------------------------------------
+__about__ = __doc__
 __all__ = (
     "Int", "Float", "AutoDateTime", "AutoDeltaTime", "MultiMetric",
-    "TotalAndSec", "Timecard", "Bytes", "Traffic", "Timeit", "__doc__"
+    "TotalAndSec", "Timecard", "Bytes", "Traffic", "Timeit", "__about__"
 )
 # ------------------------------------------------------------------------------
 
